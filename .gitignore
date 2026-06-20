@@ -1,0 +1,22 @@
+# Зависимости
+node_modules/
+
+# Секретные ключи (НИКОГДА не коммитим!)
+.env
+.env.local
+.env*.local
+
+# Логи
+*.log
+npm-debug.log*
+
+# Сборка
+dist/
+build/
+.next/
+
+# Системные файлы Mac
+.DS_Store
+
+# Редактор
+.idea/
